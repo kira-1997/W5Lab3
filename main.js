@@ -121,7 +121,7 @@ const questions = [
     }
   
     if (currentIndex1 < questions1.length) {
-      showQuestion(currentIndex1);
+      showQuestion1(currentIndex1);
       timer = 10;
       timeLeft.textContent = timer;
       showTimer();
